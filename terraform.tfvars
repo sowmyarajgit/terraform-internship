@@ -30,7 +30,8 @@ public_subnet_name = "public_Main"
 
 private_subnet_name = "private_Main"
 
- vpc_cidr ="10.0.0.0/16"
+vpc_cidr ="10.0.0.0/16"
 
- vpc_name ="main"
+vpc_name ="main"
 
+sg_ingress = [22,80,443]

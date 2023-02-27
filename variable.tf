@@ -1,3 +1,6 @@
+variable "sg_ingress" {
+  type= list(number)
+}
 variable "public_ec2-ami" {}
 
 variable "private_ec2-ami" {}
