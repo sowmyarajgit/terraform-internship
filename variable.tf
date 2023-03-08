@@ -1,5 +1,5 @@
 variable "sg_ingress" {
-  type= list(number)
+  type = list(number)
 }
 variable "public_ec2-ami" {}
 
@@ -25,14 +25,16 @@ variable "public_rtn" {}
 
 variable "sg_name" {}
 
-variable "public_cidr_block" {}
+variable "public_subnet_cidr_block" {}
 
-variable "private_cidr_block" {}
+variable "private_subnet_cidr_block" {}
 
 variable "public_subnet_name" {}
-  
+
 variable "private_subnet_name" {}
 
 variable "vpc_cidr" {}
 
 variable "vpc_name" {}
+
+variable "azs" {}
